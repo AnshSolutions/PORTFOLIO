@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import myphoto from 'assets/images/myphoto.jpg';
-import AnshKumarResume from 'assets/images/Ansh Kumar Resume.pdf';
+import AnshKumarResume from 'assets/images/AnshKumarResume.png';
 
 const Home: React.FC = () => {
   useEffect(() => {
