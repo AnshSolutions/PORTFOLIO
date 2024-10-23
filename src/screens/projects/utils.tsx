@@ -1,18 +1,13 @@
-import {BiLogoPostgresql} from 'react-icons/bi';
+// import {BiLogoPostgresql} from 'react-icons/bi';
 import {FaPython,FaGoogle, FaNodeJs, FaReact} from 'react-icons/fa';
-import {SiNextdotjs, SiStripe, SiTailwindcss,SiExpress} from 'react-icons/si';
+import { SiTailwindcss,SiExpress} from 'react-icons/si';
 import { FaHtml5, FaCss3Alt, FaJsSquare } from 'react-icons/fa';
 import plant from 'assets/images/Plant.jpeg';
 import path from 'assets/images/path.jpg';
 import {
-  SiAmazonaws,
-  SiApollographql,
-  SiGraphql,
-  SiJavascript,
+ 
   SiMongodb,
-  SiMysql,
-  SiNestjs,
-  SiPrisma,
+  
   SiTypescript,
   SiOpencv,
   SiHtml5,
@@ -20,17 +15,13 @@ import {
 
 } from 'react-icons/si';
 
-import btfLofo from 'assets/images/btf-logo.png';
-import cfLofo from 'assets/images/cfLogo.png';
-import s2eLofo from 'assets/images/s2e-logo.webp';
-import smartFoodLogo from 'assets/images/smart-food.png';
-import viktreLofo from 'assets/images/viktre-logo.jpeg';
+
 import weatherAppLofo from 'assets/images/weather-app.png';
 import porfolioLogo from '../../../public/logo.svg';
 import study from 'assets/images/studyNotion.jpg'; // adjust the path based on your folder structure
-import m from 'assets/images/mern.jpg';
 
-import apwriteIcon from 'assets/images/Apwrite.png';
+
+
 import e from 'assets/images/ecommerce.png';
 
 export interface Project {

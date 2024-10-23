@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import ProjectCard from './ProjectCard';
 import {  customProjects } from './utils'; 
 
@@ -45,9 +45,9 @@ export const Projects = () => {
         {/* Conditional rendering based on activeTab */}
         {activeTab === 'comercial' ? (
           <div className="xxl:grid-cols-3 grid grid-cols-1 gap-6 md:grid-cols-2">
-            {comerciaProjects.map((project, index) => (
+            {/* {comerciaProjects.map((project, index) => (
               <ProjectCard key={index} project={project} />
-            ))}
+            ))} */}
           </div>
         ) : (
           <div className="xxl:grid-cols-3 grid grid-cols-1 gap-6 md:grid-cols-2">

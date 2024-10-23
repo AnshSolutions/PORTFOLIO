@@ -13,7 +13,7 @@ import {
   SiExpress,
   SiJavascript,
   SiMongodb,
-  SiNextdotjs,
+
   SiRedux,
   SiStripe,
   SiTailwindcss,

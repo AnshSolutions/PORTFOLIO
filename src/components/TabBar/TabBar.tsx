@@ -40,7 +40,7 @@ export const TabBar = ({mobileAndTablet}: {mobileAndTablet: boolean}) => {
   return (
     <header className="relative mt-px flex h-9 w-full items-end justify-between">
       <nav className="flex h-9 flex-row items-center">
-        {routesLinkItems(pdfPreviewerOpen).map((item, key) => {
+        {routesLinkItems().map((item, key) => {
           if (mobileAndTablet) {
             const linksForResponsive = [];
             if (pdfPreviewerOpen && item.path === '/cv') {
