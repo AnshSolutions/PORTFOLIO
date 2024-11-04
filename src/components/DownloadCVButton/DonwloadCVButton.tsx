@@ -1,7 +1,7 @@
 import {useDownloadPdf} from 'hooks/useDownloadPdf';
 import {useMediaQuery} from 'react-responsive';
 import {mediaBreakpoints} from 'responsive';
-// import DownloadCVButton from './DownloadCVButton';
+
 
 
 export const DonwloadCVButton = ({isSmall}: {isSmall?: boolean}) => {
