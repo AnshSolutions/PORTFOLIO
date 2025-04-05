@@ -11,6 +11,8 @@ export default defineConfig({
       plugins: [],
     },
     sourcemap: true,
+    outDir: 'dist',
+    assetsDir: 'assets',
   },
   plugins: [react(), tsconfigPaths()],
   server: {
