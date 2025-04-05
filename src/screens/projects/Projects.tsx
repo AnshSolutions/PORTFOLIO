@@ -2,16 +2,16 @@ import  { useState } from 'react';
 import ProjectCard from './ProjectCard';
 import {  customProjects } from './utils'; 
 
-import AL from 'assets/images/Ansh kumar Resume.pdf';
+// import AL from 'assets/images/Ansh kumar Resume.pdf';
  
 
 
 export const Projects = () => {
   const [activeTab, setActiveTab] = useState('personal'); // State to manage active tab
 
-  const handleShowCV = () => {
-    window.open(AL, '_blank');
-  };
+  // const handleShowCV = () => {
+  //   window.open('_blank');
+  // };
   return (
     <>
       <div className="flex w-full flex-col items-center justify-center sm:px-1">
@@ -66,7 +66,7 @@ export const Projects = () => {
             <button
               title="open cv"
               className="btn-secondary w-full rounded px-12 py-4 hover:brightness-110 sm:w-fit"
-              onClick={handleShowCV}
+            
             >
               Open CV
             </button>

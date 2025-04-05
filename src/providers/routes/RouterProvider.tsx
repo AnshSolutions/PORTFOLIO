@@ -6,5 +6,5 @@ import {routes} from './utils';
 export const RouterProvider = () => {
   // const {pdfPreviewerOpen} = useContext(AppContext) as AppContextInterface;
 
-  return <Router router={routes()} />;
+  return <Router router={routes()}  />;
 };

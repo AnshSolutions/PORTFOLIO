@@ -6,7 +6,7 @@ import AnshKumarResume from 'assets/images/AnshKumarResume.png';
 const Home: React.FC = () => {
   useEffect(() => {
     const handleLoad = () => {
-      const utterance = new SpeechSynthesisUtterance("Home page loaded of ansh kumar resume.");
+      const utterance = new SpeechSynthesisUtterance("");
       window.speechSynthesis.speak(utterance);
     };
 

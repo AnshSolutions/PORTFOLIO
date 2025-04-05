@@ -1,0 +1,1 @@
+import{j as e,R as o}from"./index-BgZV_z8k.js";const a=()=>e.jsx("div",{className:"flex h-content min-w-[48px] justify-center bg-bgColor",children:e.jsx("div",{className:"absolute bottom-16 flex flex-col gap-4",children:o(32).map(s=>s)})});export{a as SocialNetworks,a as default};

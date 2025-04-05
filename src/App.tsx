@@ -1,17 +1,13 @@
-import { AppProvider } from 'providers/application';
-import { RouterProvider } from 'providers/routes';
-import { HashRouter } from 'react-router-dom';
+import {AppProvider} from 'providers/application';
+import {RouterProvider} from 'providers/routes';
 import './App.css';
 
 function App() {
   return (
-    <AppProvider>
-      <HashRouter>
-        <RouterProvider />
-      </HashRouter>
+    <AppProvider >
+      <RouterProvider/>
     </AppProvider>
   );
 }
 
 export default App;
-
