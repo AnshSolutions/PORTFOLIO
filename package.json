@@ -3,14 +3,12 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://anshsolutions.github.io/PORTFOLIO/",
   "scripts": {
-    "prettier": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|ts|tsx)\"",
-    "format": "npm run prettier -- --write",
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|ts|tsx)\""
   },
   "dependencies": {
     "@material-tailwind/react": "^2.1.4",
@@ -24,7 +22,6 @@
     "react-router-dom": "^6.20.0",
     "react-textarea-autosize": "^8.5.3",
     "react-type-animation": "^3.2.0",
-    "rollup-plugin-analyzer": "^4.0.0",
     "tailwind-merge": "^2.0.0",
     "vite-tsconfig-paths": "^4.2.1"
   },
@@ -49,6 +46,6 @@
     "vite": "^5.0.0"
   },
   "engines": {
-    "node": "20.x"
+    "node": ">=20.0.0"
   }
 }
